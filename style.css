@@ -1,0 +1,227 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+      background-image: url('back.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+      background-size: cover; /* Adjusts the background image size to cover the entire header */
+      background-position: center; /* Centers the background image */
+      background-color: rgba(51, 51, 51, 0.5); /* Adjust the alpha value (0.5 for 50% opacity) */
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+    }
+    .sidebar {
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 250px;
+        float: left;
+    }
+    .main-content {
+        margin-left: 270px;
+        padding: 20px;
+    }
+
+    
+    .logo {
+      width: 300px;
+      height: 70px;
+      margin-bottom: 5px; /* Decreased margin */
+  }
+  
+  #a {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 50px;
+      color: #e74708;
+      margin-top: 5px; /* Decreased margin */
+      text-shadow: 1px 1px 2px rgba(32, 160, 25, 0.5);
+      /* Adding a subtle text shadow */
+      /* You can add more styles like background color, 
+      padding, border, etc. to enhance the appearance */
+  }
+  
+    
+  .navigation {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 20px; /* adjust as needed */
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin-left: 10px; /* adjust as needed */
+  }
+  
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+
+
+  footer {
+    background-color: #5f0a0a;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info img {
+    width: 500px; /* Adjust the width of the image as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-top: 10px;
+}
+.sidebar {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 150px;
+  float: left;
+}
+
+.news-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-links li {
+  margin-bottom: 10px;
+}
+
+.news-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: block;
+}
+
+.news-links a:hover {
+  color: #e74708;
+}
+
+
+.main-content {
+  padding: 20px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* Gap between news items */
+}
+
+.news-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.news-item:hover {
+  transform: scale(1.05); /* Scale up the news item on hover */
+}
+
+.news-item h3 {
+  margin-top: 0;
+}
+
+.news-item p {
+  margin-bottom: 0;
+}
+
+.page-bar {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for the "Next" link */
+.page-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.navigation {
+  float: left;
+  margin-right: 20px;
+  color: #fff; /* Text color set to white for better visibility */
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-left: 20px; /* Increased margin for better spacing */
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #fff; /* Text color set to white */
+  padding: 10px 15px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background for better contrast */
+  transition: background-color 0.3s;
+}
+
+.navigation ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background on hover */
+  color: #333; /* Text color set to dark */
+}
+
+.search-bar {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 200px; /* Adjust width as needed */
+}
+
+
+
+
+.details {
+  display: none;
+}
+
+.details.hidden {
+  display: none !important;
+}
+
